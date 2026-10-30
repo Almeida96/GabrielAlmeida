@@ -1,0 +1,9 @@
+a:focus-visible, button:focus-visible {
+  outline: 3px solid #1377b5;
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wow { visibility: visible !important; animation: none !important; }
+  .preloader { display: none; }
+  * { scroll-behavior: auto !important; transition-duration: 0s !important; }
+}
