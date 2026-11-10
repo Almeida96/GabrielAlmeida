@@ -10,7 +10,8 @@ jQuery(function($) {
 	var slideHeight = $(window).height();
 	$('#home-slider .item').css('height',slideHeight);
 
-	$(window).resize(function(){'use strict',
+	$(window).resize(function(){
+		slideHeight = $(window).height();
 		$('#home-slider .item').css('height',slideHeight);
 	});
 	
